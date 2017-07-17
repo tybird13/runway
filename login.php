@@ -16,29 +16,31 @@ require_once '_partials/imports.php';
                 <h1>Welcome To Runway</h1>
                 <hr>
                 <div class="error-target">
-                    <?php
+                    <p class="text-danger">
+                        <?php
                         if(isset($_GET['e'])){
                             $msg = "";
                             switch($_GET['e']){
                                 case 1:
-                                    $msg = "<p class='text-danger'>Please enter your UIN and click 'setup'</p>";
+                                    $msg = "Please enter your UIN and click 'setup'";
                                     break;
                             }
                             echo $msg;
                         }
-                    ?>
+                        ?>
+                    </p>
                 </div>
                 <form id="login" class="form-horizontal" method="post" action="">
                     <div class="form-group">
                         <label class="col-sm-4 control-label" for="UIN">Enter Your UIN <i class="fa fa-asterisk text-danger"></i></label>
                         <div class="col-sm-8">
-                            <input type="text" autocomplete name="UIN" class="form-control" id="UIN">
+                            <input type="text" autocomplete="off" name="UIN" class="form-control" id="UIN">
                         </div>
                     </div>
                     <div class="form-group">
                         <label class="col-sm-4 control-label" for="pass">Enter Your Password <i class="fa fa-asterisk text-danger"></i></label>
                         <div class="col-sm-8">
-                            <input type="password" name="pass" class="form-control" id="pass">
+                            <input autocomplete="off" type="password" name="pass" class="form-control" id="pass">
                         </div>
                     </div>
 
@@ -69,10 +71,16 @@ require_once '_partials/imports.php';
 
             // HANDLE FORM SUBMISSION
             if($('#login').valid()){
+
+                var UIN = $('#UIN').val();
+                var pass = $('#pass').val();
+
+
                 var xhr = new XMLHttpRequest();
                 var formData = new FormData();
 
                 formData.append('UIN', UIN);
+                formData.append('pass', pass);
 
                 xhr.open('post', '_partials/log_in_action.php');
                 xhr.send(formData);
@@ -80,8 +88,11 @@ require_once '_partials/imports.php';
                 xhr.onload = function () {
                     console.log("RETURNED");
                     var data = JSON.parse(this.responseText);
+
                     if(data['errorCode'] !== 0){
-                        $('.error-target').html(data['errorMsg']);
+                        $('.error-target').children('p').html(data['errorMsg']);
+                    } else {
+                        window.location.href = "dashboard.php";
                     }
                 }
             }

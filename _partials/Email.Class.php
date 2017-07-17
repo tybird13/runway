@@ -1,4 +1,11 @@
 <?php
+
+/**
+ * Created by PhpStorm.
+ * User: tjdal
+ * Date: 7/16/2017
+ * Time: 4:03 PM
+ */
       class EmailSender{
         protected  $mail;
         protected  $admin_email = array("smkelly2000@gmail.com",

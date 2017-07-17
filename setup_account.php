@@ -138,8 +138,8 @@ $result = $DM->accessDatabase("SELECT * FROM accepted_students WHERE UIN=?", arr
                         $('.error-target').children('p').text(data['errorMsg']);
                     }
 
-//                    fd = null;
-//                    xhr = null;
+                    fd = null;
+                    xhr = null;
 
                 }
             }
@@ -163,24 +163,26 @@ $result = $DM->accessDatabase("SELECT * FROM accepted_students WHERE UIN=?", arr
 
                     fd.append('pass', new_pass);
                     fd.append('function', 'add_password');
-                    fd.append('UIN', <?php echo $UIN?>)
+                    fd.append('UIN', <?php echo $UIN?>);
 
                     xhr.open('post', '_partials/setup_action.php');
                     xhr.send(fd);
 
                     xhr.onload = function () {
-                        console.log('DATA RETURNED')
+                        console.log('DATA RETURNED');
                         var data = JSON.parse(this.responseText);
                         console.log(data);
+
+                        if(data['password-create'][0] === '00000' && data['errorCode'] === 0){
+                            window.location.href = 'dashboard.php';
+                        }
                     }
 
 
-                } else {
-                    console.log("NOPE");
                 }
             }
 
-            return false;
+
         })
     })
 

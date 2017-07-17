@@ -6,7 +6,7 @@
 <head>
     <title>FGCU Runway Students</title>
     <meta name="viewport" charset="utf-8" content="width=device-width, initial-scale=1">
-
+    <meta name="Author" content="Tyler Dalbora | FullStak Developers LLC" >
     <link rel="icon" href="/favicon.bmp">
     <link rel="stylesheet" href="/css/bootstrap.min.css" />
     <link rel="stylesheet" href="/css/font-awesome.min.css" />

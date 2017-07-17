@@ -10,13 +10,17 @@
 session_start();
 require_once $_SERVER['DOCUMENT_ROOT'] . '/_partials/DatabaseManager.Class.php';
 
+header("Content-type: application/json");
+
 $DM = new DatabaseManager();
 $response = array();
+$response['TEST'] = $_POST['function'];
+
 
 // FUNCTION TO VERIFY INFO IN THE DATABASE AGAINST ACCEPTED STUDENTS IN THE RUNWAY PROGRAM
 if(isset($_POST['function']) && $_POST['function'] == 'check_info'){
 
-// check to make sure all fields have been filled out
+    // check to make sure all fields have been filled out
     if((!empty($_POST['fname']) && $_POST['fname'] !== 'undefined') &&
         (!empty($_POST['lname']) && $_POST['lname'] !== 'undefined') &&
         (!empty($_POST['email']) && $_POST['email'] !== 'undefined')){
@@ -60,13 +64,13 @@ if(isset($_POST['function']) && $_POST['function'] == 'check_info'){
 
             // HAVE THEM UPDATE THE PASSWORD
             $response['errorCode'] = 0;
-            echo json_encode($response);
 
         } else {
             //$response['code'] = "FAILED: " . $student['fname'] . ", " . $student['lname'] . ", " . $student['eagle_mail'];
             $response['errorCode'] = 1;
             $response['errorMsg'] = "The information you entered does not match our records.";
             echo json_encode($response);
+
             die();
         }
 
@@ -81,7 +85,6 @@ if(isset($_POST['function']) && $_POST['function'] == 'check_info'){
 
 //  FUNCTION TO ADD A NEW PASSWORD TO THE DATABASE
 if(isset($_POST['function']) && $_POST['function'] == 'add_password'){
-
     // check to see if the value has been passed correctly
     $pass = isset($_POST['pass']) ? $_POST['pass'] : NULL;
     $UIN = isset($_POST['UIN']) ? $_POST['UIN'] : NULL;
@@ -89,19 +92,16 @@ if(isset($_POST['function']) && $_POST['function'] == 'add_password'){
     if($pass == NULL){
         $response['errorCode'] = 1;
         $response['errorMsg'] = "Please enter a password";
-        echo json_encode($response);
         die();
     }
-
     if($UIN == NULL){
         $response['errorCode'] = 1;
         $response['errorMsg'] = "UIN Invalid";
         echo json_encode($response);
         die();
     }
-
     // add the password to the database
-    $password = password_hash($pass, );
+    $password = password_hash($pass, PASSWORD_DEFAULT);
     $student = $DM->accessDatabase("SELECT * FROM accepted_students WHERE UIN=?", array($UIN));
 
     $response['password-create'] = $DM->updateDatabase(
@@ -109,11 +109,29 @@ if(isset($_POST['function']) && $_POST['function'] == 'add_password'){
         array($UIN, $student['fname'], $student['lname'], $student['eagle_mail'], $password)
     );
 
-    $response['errorCode'] = 0;
-    echo json_encode($response);
+    // create the log file for the user
+    //try{
+        $log_path = $_SERVER['DOCUMENT_ROOT'] . "/log/";
+        $user_log = fopen($log_path . $UIN . ".log", 'a');
+        //$response['file'] = $user_log;
+        fclose($user_log);
 
+        $_SESSION['UIN'] = $UIN;
+        $_SESSION['fname'] = $student['fname'];
+        $_SESSION['lname'] = $student['lname'];
+        $_SESSION['email'] = $student['eagle_mail'];
+
+
+        $response['errorCode'] = 0;
+        //var_dump($response);
+    //} catch (Exception $e){
+    //    $response['ERROR'] = $e->getTraceAsString();
+    //    $response['errorCode'] = 1;
+    //    echo $e->getTrace();
+    //}
 
 }
 
+echo (json_encode($response));
 ?>
 
