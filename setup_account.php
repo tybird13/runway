@@ -5,6 +5,7 @@
  * Date: 7/13/2017
  * Time: 3:57 PM
  */
+require_once '_partials/cookie.php';
 require_once '_partials/imports.php';
 require_once '_partials/DatabaseManager.Class.php';
 
@@ -174,7 +175,7 @@ $result = $DM->accessDatabase("SELECT * FROM accepted_students WHERE UIN=?", arr
                         console.log(data);
 
                         if(data['password-create'][0] === '00000' && data['errorCode'] === 0){
-                            window.location.href = 'dashboard.php';
+                            location.href = 'dashboard.php';
                         }
                     }
 

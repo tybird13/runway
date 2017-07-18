@@ -1,4 +1,5 @@
 <?php
+require_once '_partials/cookie.php';
 require_once '_partials/imports.php';
 
 ?>

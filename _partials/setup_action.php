@@ -7,7 +7,7 @@
  */
 
 //require_once '_partials/imports.php';
-session_start();
+require_once 'cookie.php';
 require_once $_SERVER['DOCUMENT_ROOT'] . '/_partials/DatabaseManager.Class.php';
 
 header("Content-type: application/json");

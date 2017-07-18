@@ -28,6 +28,12 @@ $(function(){
 
     });
 
+    $("#time-form").validate({
+        rules: {
+            time: {required:true, is_time:true}
+        }
+    });
+
     $("#verify").validate({
         rules: {
             fname: {required:true},
@@ -57,5 +63,9 @@ $(function(){
     // $.validator.addMethod('is_age', function (a) {
     //     return /^([1-9][0-9])$/.test(a)
     // }, "Please enter an appropriate age. Eg: 25");
+
+    $.validator.addMethod('is_time', function (s) {
+        return /^(([0][1-9])|([1][^3-9])):([0-6][0-9])\s(AM|PM)$/.test(s);
+    }, "Please enter the time in the following format: hh:mm AM or PM");
 });
 

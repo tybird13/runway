@@ -1,5 +1,6 @@
 <?php
 
+require_once 'cookie.php';
 
 ?>
 
@@ -24,9 +25,10 @@
 
             <ul class="nav navbar-nav navbar-right">
                 <?php
-                    if(isset($_SESSION['username'])):
+                    if(isset($_SESSION['fname'])):
                 ?>
-                <li><a>Welcome, <?php echo $_SESSION['username'];?></a></li>
+                <li><a>Welcome, <?php echo $_SESSION['fname'];?></a></li>
+                <li><a><span class="btn btn-danger btn-xs" id="logout">Log Out</span></a></li>
 
                 <?php
                     endif;
@@ -35,4 +37,11 @@
             </ul>
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
+    <script>
+        $(function () {
+            $('#logout').click(function () {
+                window.location.replace("logout.php");
+            })
+        })
+    </script>
 </nav>
