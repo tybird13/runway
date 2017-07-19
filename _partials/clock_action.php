@@ -109,7 +109,7 @@ if(isset($_POST['function']) && $_POST['function'] == "clock_out"){
 
         } else {
             $response['errorCode'] = 2; // they may have forgotten to clock out before...
-            $response['date_missed'] = date_create($time['last_clock_in'])->format("D, M dS Y");
+            $response['date_missed'] = date_create($time['last_clock_in'], new DateTimeZone("America/New_York"))->format("D, M dS Y");
         }
 
     } else {

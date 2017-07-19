@@ -21,6 +21,20 @@ require_once 'cookie.php';
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
                 <!-- LINKS GO HERE -->
+                <?php if(isset($_SESSION['fname'])): ?>
+                    <?php if($_SESSION['is_admin']): ?>
+                        <li id="semester_report"><a href="semester_report.php">Semester Report</a></li>
+                        <!--search for UIN-->
+                        <form id="UIN-search" class="navbar-form navbar-left">
+                            <div class="form-group">
+                                <label for="search" class="control-label">Search UIN</label>
+                                <input id="search" name="search" class="form-control">
+                                <button class="btn btn-default btn-sm">Report</button>
+
+                            </div>
+                        </form>
+                    <?php endif ?>
+                <?php endif; ?>
             </ul>
 
             <ul class="nav navbar-nav navbar-right">

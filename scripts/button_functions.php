@@ -1,6 +1,16 @@
 <script>
     $(function () {
 
+        $('#UIN-search').submit(function (e) {
+            e.preventDefault();
+            //console.log("CLICKED");
+            var UIN = $('#search').val();
+            console.log(UIN);
+
+            window.location.href = "student_report.php?UIN=" + UIN;
+
+
+        });
 
         $('#time-form').submit(function(e){
             e.preventDefault();
@@ -23,7 +33,7 @@
 
                 fd.append('function', 'fix_log');
                 fd.append('date_missed', DateTime);
-                fd.append('UIN', '<?php echo $_SESSION['UIN'] ?>');
+                fd.append('UIN', '<?php echo isset($_SESSION['UIN']) ? $_SESSION['UIN'] : NULL ?>');
 
 
                 // update the user database with the new clock out info
@@ -60,7 +70,7 @@
                 var xhr = new XMLHttpRequest();
                 var fd = new FormData();
 
-                fd.append('UIN', '<?php echo $_SESSION['UIN'] ?>');
+                fd.append('UIN', '<?php echo isset($_SESSION['UIN']) ? $_SESSION['UIN'] : NULL ?>');
                 fd.append('function', 'clock_in');
 
                 xhr.open('post', '_partials/clock_action.php');
@@ -100,7 +110,7 @@
                 var xhr = new XMLHttpRequest();
                 var fd = new FormData();
 
-                fd.append('UIN', '<?php echo $_SESSION['UIN'] ?>');
+                fd.append('UIN', '<?php echo isset($_SESSION['UIN']) ? $_SESSION['UIN'] : NULL ?>');
                 fd.append('function', 'clock_out');
                 //fd.append()
 

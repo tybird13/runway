@@ -41,7 +41,7 @@ $result = $DM->accessDatabase("SELECT * FROM accepted_students WHERE UIN=?", arr
                         }
                     }
                 ?>
-            </p>
+            </p>`
         </div>
 
         <form id="verify" class="form-horizontal" method="post" action="">
@@ -58,7 +58,7 @@ $result = $DM->accessDatabase("SELECT * FROM accepted_students WHERE UIN=?", arr
                 </div>
             </div>
             <div class="form-group">
-                <label class="col-sm-4 control-label" for="pass">Enter Your School Email <i class="fa fa-asterisk text-danger"></i></label>
+                <label class="col-sm-4 control-label" for="pass">Enter A Good Email To Reach You <i class="fa fa-asterisk text-danger"></i></label>
                 <div class="col-sm-8">
                     <input type="email" autocomplete name="email" class="form-control" id="email">
                 </div>
@@ -155,6 +155,9 @@ $result = $DM->accessDatabase("SELECT * FROM accepted_students WHERE UIN=?", arr
 
                 var new_pass = $('#new_pass').val();
                 var retype_new_pass = $('#retype_pass').val();
+                var fname = $('#fname').val();
+                var lname = $('#lname').val();
+                var email = $('#email').val();
 
                 if(new_pass.localeCompare(retype_new_pass) === 0){
                     //console.log("YEEHAH");
@@ -165,6 +168,9 @@ $result = $DM->accessDatabase("SELECT * FROM accepted_students WHERE UIN=?", arr
                     fd.append('pass', new_pass);
                     fd.append('function', 'add_password');
                     fd.append('UIN', <?php echo $UIN?>);
+                    fd.append('fname', fname);
+                    fd.append('lname', lname);
+                    fd.append('email', email);
 
                     xhr.open('post', '_partials/setup_action.php');
                     xhr.send(fd);

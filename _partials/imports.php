@@ -3,7 +3,7 @@
 
 <html>
 <head>
-    <title>FGCU Runway Students</title>
+
     <meta name="viewport" charset="utf-8" content="width=device-width, initial-scale=1">
     <meta name="Author" content="Tyler Dalbora | FullStak Developers LLC" >
     <link rel="icon" href="/favicon.bmp">
@@ -13,4 +13,5 @@
     <script type="text/javascript" src="/scripts/bootstrap.min.js"></script>
     <script type="text/javascript" src="/scripts/jquery.validate.min.js"></script>
     <script type="text/javascript" src="/scripts/jquery.validate.additionalmethods.js"></script>
+
     <link href="/css/style.css" rel="stylesheet">

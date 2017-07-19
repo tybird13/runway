@@ -9,9 +9,13 @@ require_once '_partials/cookie.php';
 require_once '_partials/imports.php';
 require_once '_partials/DatabaseManager.Class.php';
 require_once '_partials/guard.php';
+require_once '_partials/generate_student_report.php';
+require_once 'scripts/button_functions.php';
 
+
+$UIN = $_SESSION['UIN'];
 $DM = new DatabaseManager();
-$student = $DM->accessDatabase("SELECT * From users WHERE UIN=?", array($_SESSION['UIN']));
+$student = $DM->accessDatabase("SELECT * From users WHERE UIN=?", array($UIN));
 
 $current_DateTime = new DateTime();
 $current_DateTime->setTimezone(new DateTimeZone("America/New_York"));
@@ -20,7 +24,6 @@ $current_DateTime->setTimezone(new DateTimeZone("America/New_York"));
 
 <title><?php echo $_SESSION['UIN'] ?> | Dashboard</title>
 <script src="scripts/form_validation.js"></script>
-<?php require_once 'scripts/button_functions.php' ?>
 </head>
 
 <body>
@@ -29,9 +32,17 @@ $current_DateTime->setTimezone(new DateTimeZone("America/New_York"));
     <div class="row">
         <div class="col-sm-offset-2 col-sm-8 text-center">
             <div class="msg-target"></div>
-            <h1>Welcome, <?php echo "{$_SESSION['fname']} {$_SESSION['lname']}"?></h1>
+            <h1>Welcome,
+                <?php
+                    echo "{$_SESSION['fname']} {$_SESSION['lname']}";
+                    if($_SESSION['is_admin']){
+                        echo " <strong>[admin]</strong>";
+                    }
+                ?></h1>
+
+
             <?php if(isset($_SESSION['fname'])): ?>
-                <?php if($_SESSION['clocked_in']): ?>
+                <?php if($student['clocked_in']): ?>
                     <div id="status"><h3>Status: <span class="text-success">Clocked In</span></h3></div>
                 <?php else: ?>
                     <div id="status"><h3>Status: <span class="text-danger">Clocked Out</span></h3></div>
@@ -47,7 +58,7 @@ $current_DateTime->setTimezone(new DateTimeZone("America/New_York"));
             <h2>Total Hours: <strong><?php echo sprintf("%.2f", $student['total_hours']) ?></strong> hours</h2>
         </div>
         <div class="col-sm-6">
-
+            <h2 class="text-right"><strong><?php echo (sprintf("%.2f", ($student['total_hours']/80.0 * 100))) ?>%</strong> of 80 hours</h2>
         </div>
     </div>
 
@@ -78,6 +89,11 @@ $current_DateTime->setTimezone(new DateTimeZone("America/New_York"));
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <?php generate_report($student, $UIN) ?>
         </div>
     </div>
 </div>

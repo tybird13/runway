@@ -17,6 +17,7 @@ $test = password_verify($pass, $result['pass']);
 if($test){
     $response['errorCode'] = 0;
 
+    $_SESSION['is_admin'] = $result['is_admin'];
     $_SESSION['clocked_in'] = $result['clocked_in'];
     $_SESSION['UIN'] = $UIN;
     $_SESSION['fname'] = $result['fname'];

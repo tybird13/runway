@@ -54,13 +54,12 @@ if(isset($_POST['function']) && $_POST['function'] == 'check_info'){
 
     if($student){
         // check to make sure the info matches
-        if(strcmp(strtolower($fname), strtolower($student['fname'])) == 0 &&
-            strcmp(strtolower($lname), strtolower($student['lname'])) == 0 &&
-            strcmp(strtolower($email), strtolower($student['eagle_mail'])) == 0){
+        if(strcmp(strtolower($UIN), strtolower($student['UIN'])) == 0
+            && strcmp(strtolower($lname), strtolower($student['lname'])) == 0){
 
-            $response['code'] = "wtf?: " . $student['fname'] . ", " . $student['lname'] . ", " . $student['eagle_mail'];
+            //$response['code'] = "wtf?: " . $student['fname'] . ", " . $student['lname'] . ", " . $student['eagle_mail'];
 
-            $response['code'] = "SUCCESS";
+            //$response['code'] = "SUCCESS";
 
             // HAVE THEM UPDATE THE PASSWORD
             $response['errorCode'] = 0;
@@ -88,6 +87,9 @@ if(isset($_POST['function']) && $_POST['function'] == 'add_password'){
     // check to see if the value has been passed correctly
     $pass = isset($_POST['pass']) ? $_POST['pass'] : NULL;
     $UIN = isset($_POST['UIN']) ? $_POST['UIN'] : NULL;
+    $fname = $_POST['fname'];
+    $lname = $_POST['lname'];
+    $email = $_POST['email'];
 
     if($pass == NULL){
         $response['errorCode'] = 1;
@@ -106,7 +108,7 @@ if(isset($_POST['function']) && $_POST['function'] == 'add_password'){
 
     $response['password-create'] = $DM->updateDatabase(
         "INSERT INTO users (UIN, fname, lname, eagle_mail, pass) VALUES (?, ?, ?, ?, ?)",
-        array($UIN, $student['fname'], $student['lname'], $student['eagle_mail'], $password)
+        array($UIN, $fname, $lname, $email, $password)
     );
 
     // create the log file for the user
@@ -116,9 +118,10 @@ if(isset($_POST['function']) && $_POST['function'] == 'add_password'){
         //$response['file'] = $user_log;
         fclose($user_log);
 
+        $_SESSION['is_admin'] = 0;
         $_SESSION['UIN'] = $UIN;
-        $_SESSION['fname'] = $student['fname'];
-        $_SESSION['lname'] = $student['lname'];
+        $_SESSION['fname'] = $fname;
+        $_SESSION['lname'] = $lname;
         $_SESSION['email'] = $student['eagle_mail'];
 
 
