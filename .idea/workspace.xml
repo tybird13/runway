@@ -2,388 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e13dc92-309f-4a33-a8d4-9bc1eacb0828" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datetimepicker-master/screen/1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datetimepicker-master/screen/2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datetimepicker-master/screen/3.1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datetimepicker-master/screen/3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datetimepicker-master/screen/4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datetimepicker-master/screen/5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datetimepicker-master/screen/6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TESTING/form.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_partials/Student.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_partials/Time_Clock.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_partials/add_time.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_partials/update_info.action.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datetimepicker-master/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datetimepicker-master/MIT-LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datetimepicker-master/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datetimepicker-master/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datetimepicker-master/build/jquery.datetimepicker.full.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datetimepicker-master/build/jquery.datetimepicker.full.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datetimepicker-master/build/jquery.datetimepicker.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datetimepicker-master/build/jquery.datetimepicker.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datetimepicker-master/datetimepicker.jquery.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datetimepicker-master/doc.tpl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datetimepicker-master/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datetimepicker-master/jquery.datetimepicker.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datetimepicker-master/jquery.datetimepicker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datetimepicker-master/jquery.datetimepicker.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datetimepicker-master/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datetimepicker-master/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datetimepicker-master/tests/input_in_container_fixed_to_bottom_of_viewport.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datetimepicker-master/tests/input_in_container_fixed_to_top_of_viewport.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datetimepicker-master/yarn.lock" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/edit_account.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/jquery.canvasjs.min.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_partials/DateTimeLogger.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/applications.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/bitnami.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/404.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/de/faq.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/de/howto.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/de/howto_platform_links.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/de/howto_shared_links.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/de/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/access-phpmyadmin-remotely.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/access-phpmyadmin-remotely.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/access-phpmyadmin-remotely.pdfmarks" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/activate-use-xdebug.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/activate-use-xdebug.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/activate-use-xdebug.pdfmarks" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/auto-start-xampp.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/auto-start-xampp.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/auto-start-xampp.pdfmarks" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/backup-restore-mysql.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/backup-restore-mysql.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/backup-restore-mysql.pdfmarks" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/change-mysql-temp-dir.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/change-mysql-temp-dir.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/change-mysql-temp-dir.pdfmarks" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/configure-use-tomcat.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/configure-use-tomcat.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/configure-use-tomcat.pdfmarks" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/configure-vhosts.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/configure-vhosts.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/configure-vhosts.pdfmarks" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/configure-wildcard-subdomains.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/configure-wildcard-subdomains.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/configure-wildcard-subdomains.pdfmarks" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/create-framework-project-zf1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/create-framework-project-zf1.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/create-framework-project-zf1.pdfmarks" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/create-framework-project-zf2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/create-framework-project-zf2.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/create-framework-project-zf2.pdfmarks" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/deploy-git-app.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/deploy-git-app.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/deploy-git-app.pdfmarks" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/access-phpmyadmin-remotely/image1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/activate-use-xdebug/image1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/activate-use-xdebug/image2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/activate-use-xdebug/image3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/auto-start-xampp/image1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/backup-restore-mysql/image1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/backup-restore-mysql/image10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/backup-restore-mysql/image11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/backup-restore-mysql/image12.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/backup-restore-mysql/image13.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/backup-restore-mysql/image14.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/backup-restore-mysql/image2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/backup-restore-mysql/image3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/backup-restore-mysql/image4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/backup-restore-mysql/image5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/backup-restore-mysql/image6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/backup-restore-mysql/image7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/backup-restore-mysql/image8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/backup-restore-mysql/image9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/configure-use-tomcat/image1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/configure-use-tomcat/image2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/configure-use-tomcat/image3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/configure-use-tomcat/image4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/configure-use-tomcat/image5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/configure-use-tomcat/image6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/configure-use-tomcat/image7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/configure-vhosts/image1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/configure-vhosts/image2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/configure-vhosts/image3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/configure-vhosts/image4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/configure-wildcard-subdomains/image1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/configure-wildcard-subdomains/image2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/configure-wildcard-subdomains/image3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/configure-wildcard-subdomains/image4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/create-framework-project-zf1/image1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/create-framework-project-zf1/image2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/create-framework-project-zf2/image1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/create-framework-project-zf2/image2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/create-framework-project-zf2/image3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/create-framework-project-zf2/image4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/create-framework-project-zf2/image5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/deploy-git-app/image1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/deploy-git-app/image2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/deploy-git-app/image3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/deploy-git-app/image4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/deploy-git-app/image5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/deploy-git-app/image6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/install-wordpress/image01.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/install-wordpress/image02.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/install-wordpress/image11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/install-wordpress/image110.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/install-wordpress/image12.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/install-wordpress/image13.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/install-wordpress/image14.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/install-wordpress/image15.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/install-wordpress/image16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/install-wordpress/image17.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/install-wordpress/image18.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/install-wordpress/image19.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/install-wordpress/image21.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/install-wordpress/image22.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/install-wordpress/image23.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/install-wordpress/image24.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/install-wordpress/image31.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/install-wordpress/image32.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/install-wordpress/image33.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/install-wordpress/image34.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/install-wordpress/image35.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/install-wordpress/image36.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/install-wordpress/image37.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/install-wordpress/image38.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/reset-mysql-password/image1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/reset-mysql-password/image2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/reset-mysql-password/image3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/send-mail/image1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/send-mail/image2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/send-mail/image3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/transfer-files-ftp/image1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/transfer-files-ftp/image10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/transfer-files-ftp/image11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/transfer-files-ftp/image2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/transfer-files-ftp/image3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/transfer-files-ftp/image4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/transfer-files-ftp/image5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/transfer-files-ftp/image6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/transfer-files-ftp/image7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/transfer-files-ftp/image8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/transfer-files-ftp/image9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/troubleshoot-apache/image1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/troubleshoot-apache/image2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/troubleshoot-apache/image3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/troubleshoot-apache/image4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/troubleshoot-apache/image5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/troubleshoot-apache/image6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/troubleshoot-apache/image7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/troubleshoot-apache/image8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/use-different-php-version/image1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/use-php-fcgi/image1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/use-sqlite/image1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/use-sqlite/image2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/images/use-sqlite/image3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/increase-php-file-upload-limit.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/increase-php-file-upload-limit.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/increase-php-file-upload-limit.pdfmarks" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/install-wordpress.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/install-wordpress.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/install-wordpress.pdfmarks" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/reset-mysql-password.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/reset-mysql-password.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/reset-mysql-password.pdfmarks" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/send-mail.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/send-mail.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/send-mail.pdfmarks" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/transfer-files-ftp.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/transfer-files-ftp.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/transfer-files-ftp.pdfmarks" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/troubleshoot-apache.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/troubleshoot-apache.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/troubleshoot-apache.pdfmarks" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/use-different-php-version.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/use-different-php-version.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/use-different-php-version.pdfmarks" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/use-php-fcgi.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/use-php-fcgi.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/use-php-fcgi.pdfmarks" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/use-sqlite.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/use-sqlite.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/docs/use-sqlite.pdfmarks" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/es/faq.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/es/howto.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/es/howto_platform_links.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/es/howto_shared_links.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/es/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/faq.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/fr/faq.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/fr/howto.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/fr/howto_platform_links.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/fr/howto_shared_links.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/fr/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/howto.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/howto_platform_links.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/howto_shared_links.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/hu/faq.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/hu/howto.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/hu/howto_platform_links.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/hu/howto_shared_links.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/hu/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/images/addons-video-thumb.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/images/addons/beetailer-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/images/addons/elegantthemes-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/images/addons/rockettheme-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/images/addons/sugaroutfitters-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/images/addons/templatemonster-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/images/addons/themeforest-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/images/addons/woothemes-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/images/addons/wpmu-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/images/apple-logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/images/background.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/images/bitnami-xampp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/images/bitnami-xampp/image1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/images/bitnami-xampp/image2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/images/bitnami-xampp/image3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/images/bitnami-xampp/image4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/images/bitnami-xampp/image5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/images/bitnami-xampp/image6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/images/bitnami-xampp/image7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/images/blog/heartbleed-affected-osx.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/images/blog/heartbleed-affected.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/images/blog/heartbleed-fixed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/images/blog/phpinfo-section-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/images/blog/phpinfo-section-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/images/fastly-logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/images/fastly-logo@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/images/favicon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/images/flags/cn.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/images/flags/de.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/images/flags/en.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/images/flags/es.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/images/flags/fr.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/images/flags/hu.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/images/flags/it.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/images/flags/jp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/images/flags/pl.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/images/flags/pt.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/images/flags/pt_br.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/images/flags/ro.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/images/flags/ru.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/images/flags/tr.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/images/flags/ur.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/images/flags/zh_cn.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/images/flags/zh_tw.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/images/linux-logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/images/middleman.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/images/pdf-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/images/screenshots/xampp-linux-start.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/images/screenshots/xampp-macosx-launch-credentials.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/images/screenshots/xampp-macosx-stack-manager-general.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/images/screenshots/xampp-macosx-stack-manager-network.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/images/screenshots/xampp-macosx-stack-manager-services.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/images/screenshots/xampp-macosx-stack-manager-volumes.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/images/screenshots/xampp-macosx-stack-manager.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/images/screenshots/xampp-macosx-start.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/images/screenshots/xampp-windows-start.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/images/social-icons-large.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/images/social-icons-large@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/images/social-icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/images/social-icons@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/images/sourceforge-logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/images/sourceforge-logo@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/images/stack-icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/images/stack-icons@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/images/stamps/stamp-173x38.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/images/stamps/stamp-80x15.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/images/stamps/stamp-88x31.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/images/team/beltran-rueda.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/images/team/daniel-lopez.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/images/team/kai-seidler.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/images/team/kay-vogelgesang.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/images/team/paul-hinz.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/images/twitter-bird.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/images/windows-logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/images/xampp-cloud.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/images/xampp-cloud@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/images/xampp-logo.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/it/faq.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/it/howto.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/it/howto_platform_links.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/it/howto_shared_links.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/it/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/javascripts/all.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/javascripts/modernizr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/jp/faq.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/jp/howto.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/jp/howto_platform_links.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/jp/howto_shared_links.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/jp/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/phpinfo.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/pl/faq.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/pl/howto.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/pl/howto_platform_links.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/pl/howto_shared_links.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/pl/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/pt_br/faq.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/pt_br/howto.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/pt_br/howto_platform_links.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/pt_br/howto_shared_links.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/pt_br/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/ro/faq.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/ro/howto.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/ro/howto_platform_links.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/ro/howto_shared_links.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/ro/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/ru/faq.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/ru/howto.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/ru/howto_platform_links.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/ru/howto_shared_links.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/ru/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/stylesheets/all-rtl.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/stylesheets/all.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/stylesheets/asciidoctor.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/stylesheets/normalize.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/tr/faq.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/tr/howto.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/tr/howto_platform_links.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/tr/howto_shared_links.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/tr/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/ur/faq.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/ur/howto.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/ur/howto_platform_links.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/ur/howto_shared_links.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/ur/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/zh_cn/faq.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/zh_cn/howto.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/zh_cn/howto_platform_links.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/zh_cn/howto_shared_links.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/zh_cn/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/zh_tw/faq.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/zh_tw/howto.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/zh_tw/howto_platform_links.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/zh_tw/howto_shared_links.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/dashboard/zh_tw/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/img/module_table_bottom.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/img/module_table_top.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/xampp/.modell" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/xampp/.modell-usb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup/xampp/.version" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_partials/clock_action.php" afterPath="$PROJECT_DIR$/_partials/clock_action.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_partials/generate_student_report.php" afterPath="$PROJECT_DIR$/_partials/generate_student_report.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_partials/imports.php" afterPath="$PROJECT_DIR$/_partials/imports.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_partials/log_in_action.php" afterPath="$PROJECT_DIR$/_partials/log_in_action.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_partials/navbar.php" afterPath="$PROJECT_DIR$/_partials/navbar.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_partials/setup_action.php" afterPath="$PROJECT_DIR$/_partials/setup_action.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard.php" afterPath="$PROJECT_DIR$/dashboard.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/814830736.log" afterPath="$PROJECT_DIR$/log/814830736.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/814834048.log" afterPath="$PROJECT_DIR$/log/814834048.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login.php" afterPath="$PROJECT_DIR$/login.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/button_functions.php" afterPath="$PROJECT_DIR$/scripts/button_functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/form_validation.js" afterPath="$PROJECT_DIR$/scripts/form_validation.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/semester_report.php" afterPath="$PROJECT_DIR$/semester_report.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/setup_account.php" afterPath="$PROJECT_DIR$/setup_account.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.php" afterPath="$PROJECT_DIR$/test.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -424,12 +44,22 @@
       <file leaf-file-name="semester_report.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/semester_report.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="157" column="22" lean-forward="false" selection-start-line="157" selection-start-column="22" selection-end-line="157" selection-end-column="22" />
+            <state relative-caret-position="421">
+              <caret line="252" column="46" lean-forward="false" selection-start-line="252" selection-start-column="46" selection-end-line="252" selection-end-column="46" />
               <folding>
-                <marker date="1508002496933" expanded="true" signature="969:988" ph="SELECT * FRO... users" />
-                <marker date="1508002496933" expanded="true" signature="2141:2153" ph="{...}" />
+                <marker date="1508600703443" expanded="true" signature="969:988" ph="SELECT * FRO... users" />
+                <marker date="1508600703443" expanded="true" signature="3630:3642" ph="{...}" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="814830736.log" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/log/814830736.log">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -447,17 +77,17 @@
       <file leaf-file-name="clock_action.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_partials/clock_action.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3045">
-              <caret line="150" column="33" lean-forward="false" selection-start-line="150" selection-start-column="33" selection-end-line="150" selection-end-column="33" />
+            <state relative-caret-position="-987">
+              <caret line="118" column="0" lean-forward="false" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
               <folding>
-                <marker date="1504395896198" expanded="true" signature="2581:2665" ph="UPDATE users... " />
-                <marker date="1504395896198" expanded="true" signature="2874:2958" ph="SELECT last_... users" />
-                <marker date="1504395896198" expanded="true" signature="3672:3736" ph="UPDATE users... " />
-                <marker date="1504395896198" expanded="true" signature="4191:4255" ph="UPDATE users... " />
-                <marker date="1504395896198" expanded="true" signature="5117:5199" ph="UPDATE users... " />
-                <marker date="1504395896198" expanded="true" signature="7854:7897" ph="SELECT total... users" />
-                <marker date="1504395896198" expanded="true" signature="8079:8188" ph="UPDATE users... " />
-                <marker date="1504395896198" expanded="true" signature="8079:8202" ph="UPDATE users... " />
+                <marker date="1508596962860" expanded="true" signature="2581:2665" ph="UPDATE users... " />
+                <marker date="1508596962860" expanded="true" signature="2874:2958" ph="SELECT last_... users" />
+                <marker date="1508596962860" expanded="true" signature="3620:3684" ph="UPDATE users... " />
+                <marker date="1508596962860" expanded="true" signature="4139:4203" ph="UPDATE users... " />
+                <marker date="1508596962860" expanded="true" signature="5065:5147" ph="UPDATE users... " />
+                <marker date="1508596962860" expanded="true" signature="7802:7845" ph="SELECT total... users" />
+                <marker date="1508596962860" expanded="true" signature="8027:8136" ph="UPDATE users... " />
+                <marker date="1508596962860" expanded="true" signature="8027:8150" ph="UPDATE users... " />
               </folding>
             </state>
           </provider>
@@ -466,12 +96,12 @@
       <file leaf-file-name="add_time.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_partials/add_time.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="45" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+            <state relative-caret-position="109">
+              <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
               <folding>
-                <marker date="1506551305605" expanded="true" signature="924:967" ph="SELECT total... users" />
-                <marker date="1506551305605" expanded="true" signature="1194:1227" ph="UPDATE users... " />
-                <marker date="1506551305605" expanded="true" signature="1194:1279" ph="UPDATE users... " />
+                <marker date="1508596962851" expanded="true" signature="924:967" ph="SELECT total... users" />
+                <marker date="1508596962851" expanded="true" signature="1194:1227" ph="UPDATE users... " />
+                <marker date="1508596962851" expanded="true" signature="1194:1279" ph="UPDATE users... " />
               </folding>
             </state>
           </provider>
@@ -573,6 +203,24 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="Development" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -605,16 +253,16 @@
         <option value="$PROJECT_DIR$/scripts/form_validation.js" />
         <option value="$PROJECT_DIR$/scripts/button_functions.php" />
         <option value="$PROJECT_DIR$/_partials/generate_student_report.php" />
-        <option value="$PROJECT_DIR$/_partials/clock_action.php" />
         <option value="$PROJECT_DIR$/log/814834048.log" />
         <option value="$PROJECT_DIR$/edit_account.php" />
-        <option value="$PROJECT_DIR$/_partials/add_time.php" />
         <option value="$PROJECT_DIR$/login.php" />
         <option value="$PROJECT_DIR$/_partials/log_in_action.php" />
         <option value="$PROJECT_DIR$/_partials/setup_action.php" />
         <option value="$PROJECT_DIR$/setup_account.php" />
         <option value="$PROJECT_DIR$/report.php" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/_partials/add_time.php" />
+        <option value="$PROJECT_DIR$/_partials/clock_action.php" />
         <option value="$PROJECT_DIR$/semester_report.php" />
       </list>
     </option>
@@ -632,7 +280,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 7.1" />
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="width" value="3840" />
     <option name="height" value="2060" />
@@ -819,12 +467,27 @@
       <workItem from="1507320219131" duration="22000" />
       <workItem from="1507583099539" duration="74000" />
       <workItem from="1507990827133" duration="10261000" />
-      <workItem from="1508596046053" duration="776000" />
+      <workItem from="1508596046053" duration="4692000" />
     </task>
+    <task id="LOCAL-00001" summary="before working with column graph in semester report">
+      <created>1508596909478</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1508596909478</updated>
+    </task>
+    <task id="LOCAL-00002" summary="before working with column graph in semester report">
+      <created>1508597398712</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1508597398712</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="220990000" />
+    <option name="totallyTimeSpent" value="224906000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -838,15 +501,16 @@
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19978517" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33221665" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19978517" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33143508" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967913" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32886654" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -858,6 +522,28 @@
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998326" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33143508" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Analyze Dataflow to" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998326" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19978517" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998326" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967913" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32886654" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -872,8 +558,38 @@
       </list>
     </option>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="before working with column graph in semester report" />
+    <option name="LAST_COMMIT_MESSAGE" value="before working with column graph in semester report" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -882,13 +598,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_partials/navbar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="15" column="43" lean-forward="false" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_partials/imports.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
@@ -1165,35 +874,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_partials/clock_action.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3045">
-          <caret line="150" column="33" lean-forward="false" selection-start-line="150" selection-start-column="33" selection-end-line="150" selection-end-column="33" />
-          <folding>
-            <marker date="1504395896198" expanded="true" signature="2581:2665" ph="UPDATE users... " />
-            <marker date="1504395896198" expanded="true" signature="2874:2958" ph="SELECT last_... users" />
-            <marker date="1504395896198" expanded="true" signature="3672:3736" ph="UPDATE users... " />
-            <marker date="1504395896198" expanded="true" signature="4191:4255" ph="UPDATE users... " />
-            <marker date="1504395896198" expanded="true" signature="5117:5199" ph="UPDATE users... " />
-            <marker date="1504395896198" expanded="true" signature="7854:7897" ph="SELECT total... users" />
-            <marker date="1504395896198" expanded="true" signature="8079:8188" ph="UPDATE users... " />
-            <marker date="1504395896198" expanded="true" signature="8079:8202" ph="UPDATE users... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_partials/add_time.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="45" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding>
-            <marker date="1506551305605" expanded="true" signature="924:967" ph="SELECT total... users" />
-            <marker date="1506551305605" expanded="true" signature="1194:1227" ph="UPDATE users... " />
-            <marker date="1506551305605" expanded="true" signature="1194:1279" ph="UPDATE users... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_partials/log_in_action.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="777">
@@ -1238,7 +918,7 @@
         <state relative-caret-position="21">
           <caret line="36" column="432" lean-forward="false" selection-start-line="36" selection-start-column="431" selection-end-line="36" selection-end-column="432" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1251,22 +931,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/semester_report.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="157" column="22" lean-forward="false" selection-start-line="157" selection-start-column="22" selection-end-line="157" selection-end-column="22" />
-          <folding>
-            <marker date="1508002496933" expanded="true" signature="969:988" ph="SELECT * FRO... users" />
-            <marker date="1508002496933" expanded="true" signature="2141:2153" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/parallax.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1002">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_partials/add_time.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding>
+            <marker date="1508596962851" expanded="true" signature="924:967" ph="SELECT total... users" />
+            <marker date="1508596962851" expanded="true" signature="1194:1227" ph="UPDATE users... " />
+            <marker date="1508596962851" expanded="true" signature="1194:1279" ph="UPDATE users... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_partials/clock_action.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-987">
+          <caret line="118" column="0" lean-forward="false" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
+          <folding>
+            <marker date="1508596962860" expanded="true" signature="2581:2665" ph="UPDATE users... " />
+            <marker date="1508596962860" expanded="true" signature="2874:2958" ph="SELECT last_... users" />
+            <marker date="1508596962860" expanded="true" signature="3620:3684" ph="UPDATE users... " />
+            <marker date="1508596962860" expanded="true" signature="4139:4203" ph="UPDATE users... " />
+            <marker date="1508596962860" expanded="true" signature="5065:5147" ph="UPDATE users... " />
+            <marker date="1508596962860" expanded="true" signature="7802:7845" ph="SELECT total... users" />
+            <marker date="1508596962860" expanded="true" signature="8027:8136" ph="UPDATE users... " />
+            <marker date="1508596962860" expanded="true" signature="8027:8150" ph="UPDATE users... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/814830736.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/semester_report.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="252" column="46" lean-forward="false" selection-start-line="252" selection-start-column="46" selection-end-line="252" selection-end-column="46" />
+          <folding>
+            <marker date="1508600703443" expanded="true" signature="969:988" ph="SELECT * FRO... users" />
+            <marker date="1508600703443" expanded="true" signature="3630:3642" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>

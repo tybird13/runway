@@ -53,7 +53,15 @@ $all_records = $DM->pullAllFromDatabase("SELECT * FROM users");
  * 5 - friday
  * 6 - saturday
  */
-$days = array(0, 0, 0, 0, 0, 0, 0);
+$days = array(
+    array(0, 0, 0), // sunday    (8:00am - 11:59am, 12:00pm - 3:59pm, 4:00pm - 8:00pm)
+    array(0, 0, 0), // monday    (8:00am - 11:59am, 12:00pm - 3:59pm, 4:00pm - 8:00pm)
+    array(0, 0, 0), // tuesday   (8:00am - 11:59am, 12:00pm - 3:59pm, 4:00pm - 8:00pm)
+    array(0, 0, 0), // wednesday (8:00am - 11:59am, 12:00pm - 3:59pm, 4:00pm - 8:00pm)
+    array(0, 0, 0), // thursday  (8:00am - 11:59am, 12:00pm - 3:59pm, 4:00pm - 8:00pm)
+    array(0, 0, 0), // friday    (8:00am - 11:59am, 12:00pm - 3:59pm, 4:00pm - 8:00pm)
+    array(0, 0, 0)  // saturday  (8:00am - 11:59am, 12:00pm - 3:59pm, 4:00pm - 8:00pm)
+);
 
 // parse every single *.log file in the system for the clock-in date
 
@@ -67,8 +75,28 @@ foreach ($files as $file) {
             $date = $data[0];
             if ($date != null && $date != '') {
                 $count++;
+
+                // get the day and time
                 $dow = date('w', strtotime($date)); // 0 - 6
-                $days[$dow]++;
+
+                // get the interval that the time falls into
+                $fullDate = DateTime::createFromFormat('Y-m-d H:i:s', $date);
+                $timeOfDay = DateTime::createFromFormat("H:i", $fullDate->format("H:i"));
+
+                $d1 = DateTime::createFromFormat("H:i", "12:00");
+                $d2 = DateTime::createFromFormat("H:i", "16:00");
+
+                if ($timeOfDay < $d1) { // if the time is before noon, it is the morning
+                    $days[$dow][0]++;
+                } elseif ($timeOfDay >= $d1 && $timeOfDay <= $d2) { // if the time is between noon and 4, it is daytime
+                    $days[$dow][1]++;
+                } elseif ($timeOfDay > $d2) {
+                    $days[$dow][2]++;
+                } else {
+                    throw new Exception("Time of day was set incorrectly");
+                }
+
+                //var_dump($days);
             }
         }
     } catch (Exception $e) {
@@ -179,23 +207,59 @@ asort($people);
     window.onload = function () {
         var chart1 = new CanvasJS.Chart("daysOfWeekChart", {
             animationEnabled: true,
-            axisY:{
-              title: "# of Logins"
+            axisY: {
+                title: "# of Logins"
             },
-            title:{
+            title: {
                 text: "Days of the Week"
             },
             data: [
                 {
-                    type: "column",
+                    type: "stackedColumn",
+                    legendText: "Before 12:00PM",
+                    showInLegend: true,
                     dataPoints: [
-                        {label: "Sunday", y: <?php echo $days[0] ?>  },
-                        {label: "Monday", y: <?php echo $days[1] ?> },
-                        {label: "Tuesday", y: <?php echo $days[2] ?>  },
-                        {label: "Wednesday", y: <?php echo $days[3] ?>  },
-                        {label: "Thursday", y: <?php echo $days[4] ?>  },
-                        {label: "Friday", y: <?php echo $days[5] ?>  },
-                        {label: "Saturday", y: <?php echo $days[6] ?>  }
+                        {label: "Sunday", y: <?php echo $days[0][0] ?>  },
+                        {label: "Monday", y: <?php echo $days[1][0] ?> },
+                        {label: "Tuesday", y: <?php echo $days[2][0] ?>  },
+                        {label: "Wednesday", y: <?php echo $days[3][0] ?>  },
+                        {label: "Thursday", y: <?php echo $days[4][0] ?>  },
+                        {label: "Friday", y: <?php echo $days[5][0] ?>  },
+                        {label: "Saturday", y: <?php echo $days[6][0] ?>  }
+
+                    ]
+
+                },
+                {
+                    type: "stackedColumn",
+                    legendText: "Between 12:00PM & 4:00PM",
+                    showInLegend: true,
+                    dataPoints: [
+                        {label: "Sunday", y: <?php echo $days[0][1] ?>  },
+                        {label: "Monday", y: <?php echo $days[1][1] ?> },
+                        {label: "Tuesday", y: <?php echo $days[2][1] ?>  },
+                        {label: "Wednesday", y: <?php echo $days[3][1] ?>  },
+                        {label: "Thursday", y: <?php echo $days[4][1] ?>  },
+                        {label: "Friday", y: <?php echo $days[5][1] ?>  },
+                        {label: "Saturday", y: <?php echo $days[6][1] ?>  }
+
+                    ]
+
+                },
+                {
+                    type: "stackedColumn",
+                    legendText: "After 4:00PM",
+                    showInLegend: true,
+                    indexLabel: "#total LogIns",
+                    indexLabelPlacement: "outside",
+                    dataPoints: [
+                        {label: "Sunday", y: <?php echo $days[0][2] ?>  },
+                        {label: "Monday", y: <?php echo $days[1][2] ?> },
+                        {label: "Tuesday", y: <?php echo $days[2][2] ?>  },
+                        {label: "Wednesday", y: <?php echo $days[3][2] ?>  },
+                        {label: "Thursday", y: <?php echo $days[4][2] ?>  },
+                        {label: "Friday", y: <?php echo $days[5][2] ?>  },
+                        {label: "Saturday", y: <?php echo $days[6][2] ?>  }
 
                     ]
 
@@ -207,14 +271,14 @@ asort($people);
 
         var chart2 = new CanvasJS.Chart("peopleHoursChart", {
             animationEnabled: true,
-            axisY:{
+            axisY: {
                 title: "Hours",
             },
             axisX: {
                 labelFontSize: 8,
                 interval: 1,
             },
-            title:{
+            title: {
                 text: "Student Hours"
             },
             data: [
@@ -223,7 +287,7 @@ asort($people);
                     dataPoints: [
 
                         <?php
-                        foreach($people as $key => $value){
+                        foreach ($people as $key => $value) {
                             echo "{label: \"$key\", y: $value},\n";
                         }
                         ?>
