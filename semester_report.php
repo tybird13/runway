@@ -70,9 +70,12 @@ $count = 0;
 foreach ($files as $file) {
     try {
         $handle = fopen($file, "r");
-        while (($data = fgetcsv($handle, 1000, ",")) !== false) {
+        while (($data = fgetcsv($handle, 1000, ",", ' ', '"')) !== false) {
 
-            $date = $data[0];
+            $date = preg_replace("/\"/", "", $data[0]);
+            
+            
+            echo $date . "<br>";
             if ($date != null && $date != '') {
                 $count++;
 
