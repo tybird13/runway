@@ -15,6 +15,7 @@ $DM = new DatabaseManager();
 $result = $DM->accessDatabase("SELECT * FROM accepted_students WHERE UIN=?", array($UIN));
 //var_dump($UIN);
 ?>
+<!--suppress Annotator -->
 <script src="scripts/form_validation.js"></script>
 </head>
 <body>
@@ -41,7 +42,7 @@ $result = $DM->accessDatabase("SELECT * FROM accepted_students WHERE UIN=?", arr
                         }
                     }
                 ?>
-            </p>`
+            </p>
         </div>
 
         <form id="verify" class="form-horizontal" method="post" action="">
@@ -132,12 +133,10 @@ $result = $DM->accessDatabase("SELECT * FROM accepted_students WHERE UIN=?", arr
                     var data = JSON.parse(this.responseText);
                     console.log(data);
 
-                    if(data['errorCode'] === 0){
                         $('#verify').hide();
                         $('#create-password').show().removeClass('hide');
-                    } else {
-                        $('.error-target').children('p').text(data['errorMsg']);
-                    }
+
+                        $('.error-target').children('p').html(data['errorMsg']);
 
                     fd = null;
                     xhr = null;

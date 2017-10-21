@@ -3,6 +3,11 @@
     text-align: center;
     margin: 20px auto;
 }
+
+.chart{
+    margin: 30px;
+}
+
 .navbar-logo{
     height:100%;
 }
@@ -18,6 +23,13 @@
     border: 1px solid grey;
     padding:0px 20px 20px 20px;
 }
+.sign-in-box-no-align{
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    padding:0px 20px 20px 20px;
+
+}
 
 .hide{
     display: none;
@@ -28,3 +40,19 @@
     /*border: 1px solid grey;*/
     padding: 0px 20px 20px 20px;
 }
+
+.percent{
+    text-align: right;
+}
+
+@media screen and (max-width: 995px){
+    .percent{
+        text-align: center;
+    }
+    .hour{
+        text-align: center;
+    }
+
+}
+
+

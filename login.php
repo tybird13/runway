@@ -5,7 +5,7 @@ require_once '_partials/imports.php';
 ?>
 
 <title>Log In</title>
-<script src="scripts/form_validation.js"></script>
+<script src="/scripts/form_validation.js"></script>
 </head>
 <body>
 <?php require_once '_partials/navbar.php';?>
@@ -35,7 +35,7 @@ require_once '_partials/imports.php';
                     <div class="form-group">
                         <label class="col-sm-4 control-label" for="UIN">Enter Your UIN <i class="fa fa-asterisk text-danger"></i></label>
                         <div class="col-sm-8">
-                            <input type="text" autocomplete="off" name="UIN" class="form-control" id="UIN">
+                            <input autocomplete="off" name="UIN" class="form-control" id="UIN">
                         </div>
                     </div>
                     <div class="form-group">
