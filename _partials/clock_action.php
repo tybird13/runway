@@ -116,7 +116,6 @@ if (isset($_POST['function'])) {
     switch ($_POST['function']) {
         case "clock_in": // FUNCTION TO CLOCK THE USER IN (CALLED BY STUDENT)
 
-            // TODO: REWRITE THIS WHOLE CLUSTERFUCK
             if ($time['clocked_in']) {
                 if (check_logged_out($time['last_clock_in'], $time['last_clock_out'])) {
                     // format the current date and time to match the MYSQL format for database insertion

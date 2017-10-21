@@ -44,7 +44,6 @@ if (isset($_POST['UIN']) && isset($_POST['in']) && isset($_POST['out'])) {
     $DM->updateDatabase("UPDATE users SET last_clock_in = ?, last_clock_out = ?, total_hours = ? WHERE UIN = ?",
         array($in->format("Y-m-d H:m:i"), $out->format("Y-m-d H:m:i"), $total_hours, $UIN));
 
-    // TODO implement a clock class that can handle these functions in an OOP way
 
     // add the punch to the log file
 
