@@ -56,6 +56,22 @@ $(function(){
         }
     });
 
+    $('#fix_broken_hours_form').validate({
+        rules: {
+            hour_UIN: {required: true, UIN:true},
+            date: {required: true},
+            time_in: {required:true},
+            time_out: {required:true}
+        }
+    });
+
+    $('#password_change_form').validate({
+        rules: {
+            pass_UIN: {required:true, UIN:true}
+        }
+    });
+
+
     $.validator.addMethod('UIN', function(uin){
         return /^(\d){9}$/.test(uin);
     }, "Please enter a University Identification Number. EG: (814XXXXXX)");

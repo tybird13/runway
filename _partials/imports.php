@@ -1,6 +1,5 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-
 <html>
 <head>
 
@@ -15,3 +14,4 @@
     <script type="text/javascript" src="/scripts/jquery.validate.additionalmethods.js"></script>
 
     <link href="/css/style.css" rel="stylesheet">
+    <script type="text/javascript" src="/scripts/form_validation.js"></script>

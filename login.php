@@ -5,7 +5,7 @@ require_once '_partials/imports.php';
 ?>
 
 <title>Log In</title>
-<script src="scripts/form_validation.js"></script>
+<script src="/scripts/form_validation.js"></script>
 </head>
 <body>
 <?php require_once '_partials/navbar.php';?>

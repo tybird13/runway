@@ -1,0 +1,68 @@
+.parallax-section {
+	background-image: url('../img/parallax/lenses-690179_960_720.jpg');
+	background-repeat: none;
+	background-attachment:fixed;
+	background-position:top;
+	background-size:cover;
+}	
+.parallax-section p {
+	font-size: 18pt;	
+}
+.title {
+	margin-top: 25px;
+	background-color: rgba(255, 255, 255, .5);
+	min-height: 400px;
+	padding: 20px;
+	
+}
+.title h1{
+	font-weight: bold;
+	font-size: 550%;
+}
+.title h2 {
+	color: red;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 900%;
+}
+.parallax1 {
+	background-image:url(../img/parallax/checker-background_m.jpg);
+	background-size:cover;
+	background-repeat:repeat;
+	height: 500px;
+	padding: 20px;
+	color: white;
+	
+}
+.parallax2 {
+	background-image:url(../img/parallax/pexels-photo.jpg);
+	background-attachment:fixed;
+	background-size:cover;
+	margin-top:0px;
+
+	height:500px;	
+}
+.parallax3 {
+	background-image:url(../img/parallax/wood-1108307_1920.jpg);
+	height:500px;
+	
+}
+.parallax4 {
+	background-image:url(../img/parallax/lens-1464552_1920.jpg);
+	background-attachment:fixed;	
+}
+#profileImage {
+	max-width:75%;
+	margin-left: 12.5%;
+	max-height:400px;
+}
+.white-background {
+	background-color: rgba(0, 0, 0, .3);
+	height:inherit;
+	padding:40px;	
+	color:white;
+}
+.side-image {
+	width: 50%;	
+	max-height: 400px;
+	margin-left: 12.5%;
+}

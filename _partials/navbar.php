@@ -1,9 +1,3 @@
-<?php
-
-require_once 'cookie.php';
-
-?>
-
 <nav class="navbar navbar-default">
     <div class="container-fluid">
         <!-- BRAND AND TOGGLE -->
@@ -21,9 +15,10 @@ require_once 'cookie.php';
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
                 <!-- LINKS GO HERE -->
-                <?php if(isset($_SESSION['fname'])): ?>
+                <?php if(isset($_SESSION['fname'])): // fname is separate just in case I want to add stuff here?>
                     <?php if($_SESSION['is_admin']): ?>
                         <li id="semester_report"><a href="semester_report.php">Semester Report</a></li>
+                        <li><a href="edit_account.php">Edit Student Accounts</a></li>
                         <!--search for UIN-->
                         <form id="UIN-search" class="navbar-form navbar-left">
                             <div class="form-group">

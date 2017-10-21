@@ -10,8 +10,12 @@ require_once '_partials/imports.php';
 require_once '_partials/DatabaseManager.Class.php';
 require_once '_partials/guard.php';
 require_once '_partials/generate_student_report.php';
-require_once 'scripts/button_functions.php';
 
+/*
+ * BUTTON FUNCTIONS IS THE JAVASCRIPT FILE THAT CONTROLS THE BEHAVIOUR OF THE CLOCK IN AND CLOCK OUT BUTTONS
+ * IT IS A PHP FILE SO THAT DATABASE VALUES CAN BE EASILY PASSED TO THE JAVASCRIPT FUNCTIONS.
+ */
+require_once 'scripts/button_functions.php';
 
 $UIN = $_SESSION['UIN'];
 $DM = new DatabaseManager();
@@ -54,11 +58,13 @@ $current_DateTime->setTimezone(new DateTimeZone("America/New_York"));
     </div>
 
     <div class="row">
-        <div class="col-sm-6">
-            <h2>Total Hours: <strong><?php echo sprintf("%.2f", $student['total_hours']) ?></strong> hours</h2>
+        <div class="col-sm-12 col-md-6">
+            <h2 class="hour">Total Hours: <strong><?php echo sprintf("%.2f", $student['total_hours']) ?></strong>
+                hours</h2>
         </div>
-        <div class="col-sm-6">
-            <h2 class="text-right"><strong><?php echo (sprintf("%.2f", ($student['total_hours']/80.0 * 100))) ?>%</strong> of 80 hours</h2>
+        <div class="col-sm-12 col-md-6">
+            <h2 class="percent"><strong><?php echo (sprintf("%.2f", (($student['total_hours']/80.0) * 100)))
+                    ?>%</strong> of 80 hours</h2>
         </div>
     </div>
 
@@ -72,7 +78,9 @@ $current_DateTime->setTimezone(new DateTimeZone("America/New_York"));
                             <button id="clock_out" class="btn btn-danger btn-lg">Clock Out</button>
                             <!-- div to handle the event that the user forgets to log out -->
                             <div id="time_input_section" class="hide">
-                                <h4 class="text-danger">It seems that you forgot to log out on <span id="date_missed"></span>. Please enter the time you left the ETI.</h4>
+                                <h4 class="text-danger">It seems that you forgot to log out on <span
+                                            id="date_missed"></span>. This time has been removed, please report to
+                                    Scott Kelly to have the time restored.</h4>
                                 <form id="time-form" class="form-inline">
                                     <div class="form-group">
                                         <label for="time" class="control-label">Time: eg 05:00 PM</label>
